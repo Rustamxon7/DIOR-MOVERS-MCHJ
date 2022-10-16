@@ -2,6 +2,13 @@
   min-height: 100vh;
 
   background: #e03131;
+
+  &__description {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #fef2f2;
+    margin-bottom: 4.8rem;
+  }
 }
 
 .header {
