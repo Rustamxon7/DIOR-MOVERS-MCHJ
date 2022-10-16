@@ -6,7 +6,6 @@ import Hero from './components/hero/Hero.jsx'
 function App() {
   return (
     <div className="app">
-      <h1>DIOR MOVERS</h1>
       <Hero />
     </div>
   );
