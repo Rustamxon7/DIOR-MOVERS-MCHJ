@@ -19,7 +19,7 @@ const Hero = () => {
       </header>
       <div className='hero'>
         <div className='container container--hero grid grid--2-cols'>
-          <div className='nav__text-box'>
+          <div className='hero__text-box'>
             <h1 className='heading-primary'>Make your moving eathy with us</h1>
             <p className='hero__description'>
               It is a long established fact that the readable content of a page
@@ -30,7 +30,7 @@ const Hero = () => {
               Contact Us
             </a>
           </div>
-          <div className='nav__img-box'>
+          <div className='hero__img-box'>
             <img className='hero__img' src={heroImg} alt='' />
           </div>
         </div>
