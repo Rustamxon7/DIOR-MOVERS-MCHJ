@@ -21,6 +21,12 @@ body {
   padding: 3.2rem;
 }
 
+.container--hero {
+  max-width: 130rem;
+  align-items: center;
+  grid-row-gap: 9.6rem;
+}
+
 // Typography
 .heading-primary {
   font-size: 5.2rem;
@@ -47,4 +53,15 @@ body {
 
 .btn:hover {
   background-color: #000;
+}
+
+// grid
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
 }
