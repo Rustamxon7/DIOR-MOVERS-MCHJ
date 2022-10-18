@@ -39,7 +39,9 @@ body {
 .btn,
 .btn:link,
 .btn:visited {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 500;
@@ -49,6 +51,7 @@ body {
   border-radius: 50px;
   font-family: inherit;
   transition: all 0.3s;
+  cursor: pointer;
 
   &--secondary {
     background-color: #e03131;

@@ -3,6 +3,8 @@ import './Hero.scss';
 import logo from '../../assets/logo.svg';
 import heroImg from '../../assets/hero-img.jpg';
 
+import { IoArrowDown } from "react-icons/io5";
+
 const Hero = () => {
   return (
     <>
@@ -34,7 +36,7 @@ const Hero = () => {
                 Contact Us
               </a>
               <a className="btn btn--secondary" href="#">
-                Learn More ↓
+                Learn More <IoArrowDown />
               </a>
             </div>
           </div>
