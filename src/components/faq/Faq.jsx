@@ -3,33 +3,35 @@ import { IoChevronDown } from 'react-icons/io5';
 
 const questions = [
   {
-    title: 'How to Use',
+    title: 'How to Use 1?',
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
   },
   {
-    title: 'How to Use',
+    title: 'How to Use 2?',
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
   },
   {
-    title: 'How to Use',
+    title: 'How to Use 3?',
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
   },
   {
-    title: 'How to Use',
+    title: 'How to Use 4?',
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
   },
   {
-    title: 'How to Use',
+    title: 'How to Use 5?',
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
   },
 ];
 
 const Faq = () => {
+  console.log();
+
   return (
     <div className='faq-section'>
       <div className='container container--center-v'>
@@ -39,16 +41,19 @@ const Faq = () => {
         </p>
       </div>
       <div className='container container--faq'>
-        <div className='faq'>
-          <div className='faq__header'>
-            <span>How to Use</span>
-            <IoChevronDown />
-          </div>
-          <div className='faq__content'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut
-          </div>
-        </div>
+        {questions.map((ques) => {
+          return (
+            <div className='faq'>
+              <div className='faq__header'>
+                <span>{ques.title}</span>
+                <IoChevronDown />
+              </div>
+              <div className='faq__content'>
+              {ques.content}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
