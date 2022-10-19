@@ -4,6 +4,7 @@ import './App.scss';
 import Hero from './components/hero/Hero.jsx';
 import Services from './components/services/Services';
 import Testimonials from './components/testimonials/Testimonials';
+import Faq from './components/faq/Faq';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Services />
       <Testimonials />
+      <Faq />
     </div>
   );
 }
