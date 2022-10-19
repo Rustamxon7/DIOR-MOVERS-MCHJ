@@ -11,6 +11,16 @@
 .faq {
   border-bottom: 1px solid #eee;
 
+  &--open {
+    .faq__content {
+      display: block;
+    }
+
+    .faq__header svg {
+      transform: rotate(180deg);
+    }
+  }
+
   &__header {
     display: flex;
     align-items: center;
@@ -18,6 +28,8 @@
 
     font-size: 2.4rem;
     font-weight: 500;
+    padding-bottom: 1.6rem;
+    cursor: pointer;
 
     svg {
       color: #e03131;
@@ -28,5 +40,6 @@
     padding: 2.4rem 1.6rem;
     font-size: 1.6rem;
     line-height: 1.5;
+    display: none;
   }
 }
