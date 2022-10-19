@@ -1,4 +1,5 @@
 import './Faq.scss';
+import { IoChevronDown } from 'react-icons/io5';
 
 const questions = [
   {
@@ -37,10 +38,11 @@ const Faq = () => {
           Find you way otherview I cannot help you to find.
         </p>
       </div>
-      <div className='container'>
+      <div className='container container--faq'>
         <div className='faq'>
           <div className='faq__header'>
             <span>How to Use</span>
+            <IoChevronDown />
           </div>
           <div className='faq__content'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
