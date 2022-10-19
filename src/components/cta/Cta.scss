@@ -5,7 +5,19 @@
 .cta {
   background-color: #e03131;
   padding: 4.8rem;
-  min-height: 40rem;
   border-radius: 12px;
   box-shadow: 0 20px 40px #e0313154;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#e03131e0, #e03131e0), url('../../assets/cta.png');
+  background-size: cover;
+  // background-blend-mode: difference;
+
+  &__heading {
+    color: #fceaea;
+    font-size: 4.8rem;
+    margin-bottom: 3.2rem;
+  }
 }
