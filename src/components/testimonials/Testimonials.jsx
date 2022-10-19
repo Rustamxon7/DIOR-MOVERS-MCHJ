@@ -17,13 +17,40 @@ const Testimonials = () => {
           See how our clients review about our services.
         </h2>
       </div>
-      <div>
+      <div className='testimonials__right'>
         <div className='testimonial'>
           <img className='testimonial__img' src={user1Image} alt='star' />
           <p className='testimonial__text'>
             Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi
-            lacus sed viverra tellus in hac habitasse platea dictumst vestibulum
-            rhoncus est pellentesque elit ullamcorper
+            lacus sed viverra tellus in hac habitasse platea dictumst
+            vestibulum.
+          </p>
+          <p className='testimonial__name'>- Lee Sims</p>
+        </div>
+        <div className='testimonial'>
+          <img className='testimonial__img' src={user1Image} alt='star' />
+          <p className='testimonial__text'>
+            Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi
+            lacus sed viverra tellus in hac habitasse platea dictumst
+            vestibulum.
+          </p>
+          <p className='testimonial__name'>- Lee Sims</p>
+        </div>
+        <div className='testimonial'>
+          <img className='testimonial__img' src={user1Image} alt='star' />
+          <p className='testimonial__text'>
+            Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi
+            lacus sed viverra tellus in hac habitasse platea dictumst
+            vestibulum.
+          </p>
+          <p className='testimonial__name'>- Lee Sims</p>
+        </div>
+        <div className='testimonial'>
+          <img className='testimonial__img' src={user1Image} alt='star' />
+          <p className='testimonial__text'>
+            Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi
+            lacus sed viverra tellus in hac habitasse platea dictumst
+            vestibulum.
           </p>
           <p className='testimonial__name'>- Lee Sims</p>
         </div>

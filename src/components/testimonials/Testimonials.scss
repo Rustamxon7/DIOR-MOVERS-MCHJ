@@ -17,10 +17,17 @@
     display: flex;
     align-items: center;
     gap: 1.6rem;
-    margin-bottom: 4.8rem;
+    margin-bottom: 2.4rem;
     img {
-      height: 5.6rem;
+      height: 4.4rem;
     }
+  }
+
+  &__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 8rem;
   }
 }
 
