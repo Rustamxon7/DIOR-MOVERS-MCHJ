@@ -10,28 +10,36 @@
 */
 
 .services {
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 9.6rem 0;
   color: #27272a;
 
   // Heading
-  &__title {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 9.6rem;
+  &__description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.6rem;
+  }
 
-    .heading-secondary {
-      font-size: 3.6rem;
-      font-weight: 700;
-      letter-spacing: 0.8px;
-    }
+  // Img box
+  &__img-box {
+    position: relative;
+  }
 
-    &--sub {
-      font-size: 1.4rem;
-      color: #e03131;
-      margin-bottom: 1.6rem;
-      font-weight: 500;
-    }
+  &__img-line--first,
+  &__img-line--second {
+    position: absolute;
+    z-index: -1;
+    height: 8rem;
+  }
+
+  &__img-line--first {
+    top: -4rem;
+    right: -4rem;
+  }
+
+  &__img-line--second {
+    bottom: -4rem;
+    left: -4rem;
   }
 
   // Services
@@ -41,64 +49,5 @@
     grid-template-columns: 1fr;
     gap: 18rem;
     margin-top: 4.8rem;
-  }
-
-  // Card
-  &__card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    &-text-box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 2.2rem;
-      width: 40%;
-    }
-
-    &-title {
-      font-size: 2.8rem;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-    }
-
-    &-description {
-      font-size: 1.6rem;
-      font-weight: 400;
-      line-height: 1.6;
-      color: #27272a;
-    }
-
-    &-img-box {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 45%;
-      position: relative;
-    }
-
-    &-img {
-      display: inline-block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    &-line-first {
-      position: absolute;
-      top: -12%;
-      right: -15%;
-      z-index: -1;
-    }
-
-    &-line-second {
-      position: absolute;
-      bottom: -12%;
-      left: -15%;
-      z-index: -1;
-    }
   }
 }
