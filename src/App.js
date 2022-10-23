@@ -7,6 +7,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Faq from './components/faq/Faq';
 import Why from './components/why/Why';
 import Cta from './components/cta/Cta';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Why />
       <Faq />
       <Cta />
+      <Footer />
     </div>
   );
 }
