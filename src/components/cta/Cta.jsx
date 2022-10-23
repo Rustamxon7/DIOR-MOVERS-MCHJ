@@ -1,16 +1,19 @@
+import { useTranslation } from 'react-i18next';
 import './Cta.scss';
 import { IoCall } from 'react-icons/io5';
 
 const Cta = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className='cta-section'>
-      <div className='container'>
-        <div className='cta'>
-          <h2 className='cta__heading'>
-            Do you want to know more about our services?
+    <div className="cta-section">
+      <div className="container">
+        <div className="cta">
+          <h2 className="cta__heading">
+            {t('Cta.heading')}
           </h2>
-          <a className='btn' href='http://'>
-            <span>Call Us</span>
+          <a className="btn" href="http://">
+            <span>{t('Cta.btn')}</span>
             <IoCall />
           </a>
         </div>
