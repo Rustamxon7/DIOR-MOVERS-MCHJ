@@ -4,14 +4,13 @@
       FONT SIZE SYSTEM (px)
       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-      
+
       MAIN COLOR: ?
       GREY COLOR: ?
 */
 
 .hero {
-  min-height: 90vh;
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 9.6rem 0 12rem 0;
   background: #e03131;
 
   .heading-primary {
@@ -63,20 +62,7 @@
   }
 }
 
-.header {
-  position: sticky;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2.4rem 4.8rem;
-  background: #e03131;
 
-  .logo {
-    .logo__image {
-      width: 12rem;
-    }
-  }
-}
 
 .nav {
   &__list {
@@ -90,10 +76,42 @@
     font-size: 1.8rem;
     font-weight: 400;
     color: #fff;
+    cursor: pointer;
+  }
+
+  &__link:hover {
+    color: #eee;
+  }
+
+  .btn {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.8rem;
   }
 
   .contact {
     font-weight: 500;
     font-size: 2rem;
+  }
+}
+
+.lang {
+  display: flex;
+  gap: 1.2rem;
+
+  &__btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    height: 4rem;
+    width: 4rem;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      width: 100%;
+      transform: scale(1.25);
+    }
   }
 }

@@ -1,0 +1,62 @@
+{
+  "Nav": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "FAQ": "FAQ",
+    "Contact": "Contact"
+  },
+  "Hero": {
+    "title": "Make your moving eathy with us",
+    "description": "It is a long established fact that the readable content of a page when. Many desktop publishing packages and web page editors now use",
+    "btn1": "Contact Us",
+    "btn2": "Learn More"
+  },
+  "Services": {
+    "subtitle": "SERVICES",
+    "title": "Get the best services from our company",
+    "service1": {
+      "title": "Moving services",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "btn": "Read More"
+    },
+    "service2": {
+      "title": "Moving services",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "btn": "Read More"
+    },
+    "service3": {
+      "title": "Moving services",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "btn": "Read More"
+    }
+  },
+  "Testimonials": {
+    "stars": "testimonials__stars",
+    "heading": "See how our clients review about our services.",
+    "testimonial1": {
+      "img": "user1Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Lee Sims"
+    },
+    "testimonial2": {
+      "img": "user2Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Nellie Rice"
+    },
+    "testimonial3": {
+      "img": "user3Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Katie Peck"
+    },
+    "testimonial4": {
+      "img": "user4Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Ben Newman"
+    }
+  },
+  "Cta": {
+    "heading": "Want to know more about our services?",
+    "btn": "Contact Us"
+  }
+}

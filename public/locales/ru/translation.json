@@ -1,0 +1,62 @@
+{
+  "Nav": {
+    "Home": "Главная",
+    "About": "О нас",
+    "Services": "Услуги",
+    "FAQ": "Часто задаваемые вопросы",
+    "Contact": "Контакты"
+  },
+  "Hero": {
+    "title": "Сделайте свой переезд легким с нами",
+    "description": "Это давно установленный факт, что содержимое страницы при чтении. Многие пакеты публикации и редакторы веб-страниц теперь используют",
+    "btn1": "Связаться с нами",
+    "btn2": "Узнать больше"
+  },
+  "Services": {
+    "subtitle": "УСЛУГИ",
+    "title": "Получите лучшие услуги от нашей компании",
+    "service1": {
+      "title": "Услуги по переезду",
+      "description": "Существует множество вариантов пассажей Lorem Ipsum, но большинство из них страдают изменениями в некоторой форме, внедренными юмором или случайными словами, которые не выглядят даже немного убедительными.",
+      "btn": "Читать далее"
+    },
+    "service2": {
+      "title": "Услуги по переезду",
+      "description": "Существует множество вариантов пассажей Lorem Ipsum, но большинство из них страдают изменениями в некоторой форме, внедренными юмором или случайными словами, которые не выглядят даже немного убедительными.",
+      "btn": "Читать далее"
+    },
+    "service3": {
+      "title": "Услуги по переезду",
+      "description": "Существует множество вариантов пассажей Lorem Ipsum, но большинство из них страдают изменениями в некоторой форме, внедренными юмором или случайными словами, которые не выглядят даже немного убедительными.",
+      "btn": "Читать далее"
+    }
+  },
+  "Testimonials": {
+    "stars": "testimonials__stars",
+    "heading": "Смотрите, как наши клиенты отзываются о наших услугах.",
+    "testimonial1": {
+      "img": "user1Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Ли Симс"
+    },
+    "testimonial2": {
+      "img": "user2Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Нелли Райс"
+    },
+    "testimonial3": {
+      "img": "user3Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Кейти Пек"
+    },
+    "testimonial4": {
+      "img": "user4Image",
+      "text": "Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.",
+      "name": "- Бен Ньюман"
+    }
+  },
+  "Cta": {
+    "heading": "Хотите узнать больше о наших услугах?",
+    "btn": "Свяжитесь с нами"
+  }
+}
