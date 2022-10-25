@@ -53,7 +53,9 @@ const Hero = () => {
             <li className='nav__link'>{t('Nav.About')}</li>
             <li className='nav__link'>{t('Nav.Services')}</li>
             <li className='nav__link'>{t('Nav.Services')}</li>
-            <li className='nav__link contact'>{t('Nav.Contact')}</li>
+            <a className='btn' href='#'>
+              {t('Hero.btn1')}
+            </a>
           </ul>
         </nav>
       </header>
