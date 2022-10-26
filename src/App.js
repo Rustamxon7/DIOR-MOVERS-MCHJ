@@ -10,6 +10,8 @@ import Why from './components/why/Why';
 import Cta from './components/cta/Cta';
 import Footer from './components/footer/Footer';
 import Moving from './pages/Moving';
+import Cleaning from './pages/Cleaning';
+import Furniture from './pages/Futniture';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
             }
           />
           <Route path='/moving' element={<Moving />}></Route>
+          <Route path='/cleaning' element={<Cleaning />}></Route>
+          <Route path='/furniture' element={<Furniture />}></Route>
         </Routes>
       </Router>
     </div>
