@@ -10,10 +10,6 @@ import { IoArrowDown } from "react-icons/io5";
 const Hero = () => {
   const { t, i18n } = useTranslation();
 
-  const clickLang = (lang) => {
-    i18n.changeLanguage(lang);
-  };
-
   return (
     <>
       <Header />

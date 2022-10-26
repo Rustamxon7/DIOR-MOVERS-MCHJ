@@ -2,9 +2,10 @@
   "Nav": {
     "Home": "Home",
     "About": "About",
-    "Services": "Services",
-    "FAQ": "FAQ",
-    "Contact": "Contact"
+    "Moving": "Moving",
+    "Cleaning": "Cleaning",
+    "Furniture": "Furniture",
+    "Contact": "Contact Us"
   },
   "Hero": {
     "title": "Make your moving eathy with us",
@@ -58,5 +59,30 @@
   "Cta": {
     "heading": "Want to know more about our services?",
     "btn": "Contact Us"
+  },
+  "Footer": {
+    "logo": "DIOR MOVERS",
+    "icons": {
+      "icon1": "IoPaperPlane",
+      "icon2": "IoLogoInstagram",
+      "icon3": "IoLogoFacebook"
+    },
+    "copyright": "Copyright © 2022 by Dior Movers, Inc. All rights reserved.",
+    "contact": {
+      "heading": "Contact Us",
+      "address": "623 Harrison St., 2nd Floor, San Francisco, CA 94107",
+      "phone": "97-567-51-46",
+      "email": "diormovers.uz"
+    },
+    "services": {
+      "heading": "Services",
+      "service1": "Moving Services",
+      "service2": "Cleaning Services",
+      "service3": "Furniture Services"
+    },
+    "about": {
+      "heading": "About Us",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquet et dolore magna aliquet interdum."
+    }
   }
 }

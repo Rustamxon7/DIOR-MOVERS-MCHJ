@@ -2,9 +2,10 @@
   "Nav": {
     "Home": "Bosh sahifa",
     "About": "Biz haqimizda",
-    "Services": "Xizmatlar",
-    "FAQ": "FAQ",
-    "Contact": "Aloqa"
+    "Moving": "Ko'chirish",
+    "Cleaning": "Tozalash",
+    "Furniture": "Mebel",
+    "Contact": "Biz bilan bog'lanish"
   },
   "Hero": {
     "title": "Biz bilan qo'shimcha yukni olib tashlashni o'rganing",
@@ -58,5 +59,30 @@
   "Cta": {
     "heading": "Bizning xizmatlar haqida ko'proq ma'lumot olishni xohlaysizmi?",
     "btn": "Biz bilan bog'laning"
+  },
+  "Footer": {
+    "logo": "DIOR MOVERS",
+    "icons": {
+      "icon1": "IoPaperPlane",
+      "icon2": "IoLogoInstagram",
+      "icon3": "IoLogoFacebook"
+    },
+    "copyright": "Copyright © 2022 by Dior Movers, Inc. Barcha huquqlar himoyalangan.",
+    "contact": {
+      "heading": "Biz bilan bog'lanish",
+      "address": "623 Harrison St., 2nd Floor, San Francisco, CA 94107",
+      "phone": "97-567-51-46",
+      "email": "diormovers.uz"
+    },
+    "services": {
+      "heading": "Xizmatlar",
+      "service1": "Ko'chirish xizmatlari",
+      "service2": "Tozalash xizmatlari",
+      "service3": "Mebel xizmatlari"
+    },
+    "about": {
+      "heading": "Biz haqimizda",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquet et dolore magna aliquet interdum."
+    }
   }
 }

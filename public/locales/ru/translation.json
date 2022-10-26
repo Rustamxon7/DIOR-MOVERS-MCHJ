@@ -2,8 +2,9 @@
   "Nav": {
     "Home": "Главная",
     "About": "О нас",
-    "Services": "Услуги",
-    "FAQ": "Часто задаваемые вопросы",
+    "Moving": "Переезд",
+    "Cleaning": "Уборка",
+    "Furniture": "Мебель",
     "Contact": "Контакты"
   },
   "Hero": {
@@ -58,5 +59,30 @@
   "Cta": {
     "heading": "Хотите узнать больше о наших услугах?",
     "btn": "Свяжитесь с нами"
+  },
+  "Footer": {
+    "logo": "DIOR MOVERS",
+    "icons": {
+      "icon1": "IoPaperPlane",
+      "icon2": "IoLogoInstagram",
+      "icon3": "IoLogoFacebook"
+    },
+    "copyright": "Все права защищены © 2022 Dior Movers, Inc.",
+    "contact": {
+      "heading": "Контакты",
+      "address": "623 Harrison St., 2nd Floor, San Francisco, CA 94107",
+      "phone": "97-567-51-46",
+      "email": "diormovers.uz"
+    },
+    "services": {
+      "heading": "Услуги",
+      "service1": "Услуги по переезду",
+      "service2": "Услуги по уборке",
+      "service3": "Услуги по мебели"
+    },
+    "about": {
+      "heading": "О нас",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquet et dolore magna aliquet interdum."
+    }
   }
 }
