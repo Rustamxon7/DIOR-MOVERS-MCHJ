@@ -23,31 +23,35 @@
   // Img box
   &__img-box {
     position: relative;
+
+    img {
+      width: 100%;
+    }
   }
 
-  &__img-line--first,
-  &__img-line--second {
-    position: absolute;
-    z-index: -1;
-    height: 8rem;
-  }
+  // &__img-line--first,
+  // &__img-line--second {
+  //   position: absolute;
+  //   z-index: -1;
+  //   height: 8rem;
+  // }
 
-  &__img-line--first {
-    top: -4rem;
-    right: -4rem;
-  }
+  // &__img-line--first {
+  //   top: -4rem;
+  //   right: -4rem;
+  // }
 
-  &__img-line--second {
-    bottom: -4rem;
-    left: -4rem;
-  }
+  // &__img-line--second {
+  //   bottom: -4rem;
+  //   left: -4rem;
+  // }
 
-  // Services
-  &__cards {
-    display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-template-columns: 1fr;
-    gap: 18rem;
-    margin-top: 4.8rem;
-  }
+  // // Services
+  // &__cards {
+  //   display: grid;
+  //   grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
+  //   grid-template-columns: 1fr;
+  //   gap: 18rem;
+  //   margin-top: 4.8rem;
+  // }
 }

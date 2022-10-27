@@ -1,13 +1,17 @@
 import './Header.scss';
 
 import { NavLink } from 'react-router-dom';
+import { IoMenu, IoClose } from 'react-icons/io5';
 
 import logo from '../../assets/logo.svg';
 import uzbFlag from '../../assets/uzb-flag.png';
 import rusFlag from '../../assets/rus-flag.png';
 import usaFlag from '../../assets/usa-flag.png';
+import { useState } from 'react';
 
 const Header = (props) => {
+  const [open, setOpen] = useState(false);
+
   return (
     // if component has page props it changes background color to white
     <header className={`header${props.page == true ? ' header--page' : ''}`}>
@@ -38,14 +42,11 @@ const Header = (props) => {
           <img src={usaFlag} alt='' />
         </button>
       </div>
-      <nav className='nav'>
+
+      <nav className={`nav${open ? ' nav--open' : ''}`}>
         <ul className='nav__list'>
           <li className='nav__link'>
-            <NavLink
-              to='/'
-            >
-              Home
-            </NavLink>
+            <NavLink to='/'>Home</NavLink>
           </li>
           <li className='nav__link'>
             <NavLink to='/cleaning'>Cleaning</NavLink>
@@ -59,6 +60,11 @@ const Header = (props) => {
           </a>
         </ul>
       </nav>
+
+      <button className='header__btn'>
+        {open && <IoClose onClick={() => setOpen(false)} />}
+        {!open && <IoMenu onClick={() => setOpen(true)} />}
+      </button>
     </header>
   );
 };

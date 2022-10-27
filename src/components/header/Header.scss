@@ -12,6 +12,15 @@
       width: 12rem;
     }
   }
+
+  &__btn {
+    z-index: 1000;
+    display: none;
+    background: none;
+    border: none;
+    align-items: center;
+    font-size: 4.4rem;
+  }
 }
 
 .nav__link a,
