@@ -63,7 +63,7 @@ const Header = (props) => {
 
       <button className='header__btn'>
         {open && <IoClose onClick={() => setOpen(false)} />}
-        {!open && <IoMenu onClick={() => setOpen(true)} />}
+        {!open && <IoMenu className='header__btn--main' onClick={() => setOpen(true)} />}
       </button>
     </header>
   );

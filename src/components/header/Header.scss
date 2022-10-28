@@ -21,6 +21,10 @@
     align-items: center;
     font-size: 4.4rem;
   }
+
+  &__btn--main {
+    color: #fff;
+  }
 }
 
 .nav__link a,
@@ -39,6 +43,10 @@
   }
 
   .nav__link:hover {
+    color: #000;
+  }
+
+  .header__btn--main {
     color: #000;
   }
 }
