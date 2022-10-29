@@ -118,4 +118,8 @@
   .container--services {
     grid-template-columns: 1fr;
   }
+
+  .footer__container {
+    grid-template-columns: 1fr 1fr !important;
+  }
 }
