@@ -12,7 +12,7 @@ const Cta = () => {
           <h2 className="cta__heading">
             {t('Cta.heading')}
           </h2>
-          <a className="btn" href="http://">
+          <a className="btn" href="tel:+998975570327">
             <span>{t('Cta.btn')}</span>
             <IoCall />
           </a>
