@@ -6,7 +6,7 @@ const Cta = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="cta-section">
+    <div id='cta' className="cta-section">
       <div className="container">
         <div className="cta">
           <h2 className="cta__heading">

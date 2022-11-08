@@ -122,4 +122,38 @@
   .footer__container {
     grid-template-columns: 1fr 1fr !important;
   }
+
+  .service--img-1 {
+    order: 1;
+  }
+
+  .service--img-2 {
+    order: 3;
+  }
+
+  .service--img-3 {
+    order: 5;
+  }
+
+  .service--text-1 {
+    order: 2;
+  }
+
+  .service--text-2 {
+    order: 4;
+  }
+
+  .service--text-3 {
+    order: 6;
+  }
+}
+
+@media (max-width: 34em) {
+  .grid--3-cols {
+    grid-template-columns: 1fr !important;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr !important;
+  }
 }

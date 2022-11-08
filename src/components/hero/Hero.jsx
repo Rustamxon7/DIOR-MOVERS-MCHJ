@@ -19,10 +19,10 @@ const Hero = () => {
             <h1 className="heading-primary">{t("Hero.title")}</h1>
             <p className="hero__description">{t("Hero.description")}</p>
             <div className="btns">
-              <a className="btn" href="#">
+              <a className="btn" href="#cta">
                 {t("Hero.btn1")}
               </a>
-              <a className="btn btn--secondary" href="#">
+              <a className="btn btn--secondary" href="#services">
                 {t("Hero.btn2")}
                 <IoArrowDown />
               </a>
