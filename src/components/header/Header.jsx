@@ -62,7 +62,7 @@ const Header = (props) => {
       </nav>
 
       <button className='header__btn'>
-        {open && <IoClose onClick={() => setOpen(false)} />}
+        {open && <IoClose className='header__btn--close' onClick={() => setOpen(false)} />}
         {!open && <IoMenu className='header__btn--main' onClick={() => setOpen(true)} />}
       </button>
     </header>

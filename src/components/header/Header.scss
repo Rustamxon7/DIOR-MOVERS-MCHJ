@@ -14,7 +14,7 @@
   }
 
   &__btn {
-    z-index: 1000;
+    z-index: 20000;
     display: none;
     background: none;
     border: none;
@@ -24,6 +24,12 @@
 
   &__btn--main {
     color: #fff;
+  }
+
+  &__btn--close {
+    position: fixed;
+    top: 3rem;
+    right: 4.6rem;
   }
 }
 
