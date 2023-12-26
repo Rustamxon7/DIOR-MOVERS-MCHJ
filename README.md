@@ -17,7 +17,7 @@
 <h3 align="center">DIOR MOVERS</h3>
 
   <p align="center">
-    DIOR MOVERS is a startup company to help people move their goods from one place to another.
+    DIOR MOVERS is a startup company that helps people move their goods from one place to another.
     <br />
     <a href="https://github.com/Rustamxon7/dior-movers-client"><strong>Explore the docs »</strong></a>
     <br />
@@ -60,7 +60,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Screenshot 2023-12-26 at 07 52 01](https://github.com/Rustamxon7/dior-movers-client/assets/69011963/935b571c-0e53-403d-8a1c-fff96d401994)
 
 DIOR MOVERS is a startup company to help people move their goods from one place to another.
 
@@ -178,4 +178,3 @@ Project Link: [https://github.com/Rustamxon7/dior-movers-client](https://github.
 [license-url]: https://github.com/Rustamxon7/dior-movers-client/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rustam-tolipov
-[product-screenshot]: images/screenshot.png
